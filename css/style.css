@@ -1,90 +1,66 @@
-@import url(reset.css);
+@import url(css/reset.css);
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-.plaska {
-	background: #E5E000;
-	position: absolute;
+.header {
 	width: 1440px;
 	height: 200px;
-	left: 0px;
-	top: 0px;
-}
-
-.name {
-	position: absolute;
-	width: 470px;
-	height: 40px;
-	left: 80px;
-	top: 80px;
+	background-color: #E5E000;
+	line-height: 200px;
 	font-family: 'Ubuntu', sans-serif;
 	color: white;
 	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	align-items: center;
-	
 }
-.image img {
-	position: absolute;
+.header p {
+	position: relative;
+	left: 80px;
+}
+
+.image-header {
 	width: 1440px;
 	height: 1080px;
 	left: 0px;
 	top: 200px;
-	background-size: contain;
+	background-size: cover;
 }
 
 .links {
-	position: absolute;
 	width: 1440px;
 	height: 100px;
-	left: 0px;
 	top: 1280px;
-	background: #E5E000;
+	background-color: #E5E000;
+	line-height: 100px;
 }
 .text {
-	position: absolute;
-	width: 984px;
-	height: 22px;
+	position: relative;
 	left: 80px;
-	top: 1319px;
-
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 25px;
-	line-height: 29px;
-	display: flex;
-	align-items: center;
 	text-transform: uppercase;
-	color: #FFFFFF;
-	}
+	color: white;
+}
 .lending {
-	position: absolute;
 	width: 1280px;
-	height: 627px;
-	left: 80px;
 	top: 1490px;
-
+}
+.lending p {
+	position: relative;
 	font-family: Helvetica;
+	left: 80px;
 	font-size: 50px;
 	line-height: 57px;
-
 	color: #000000;	
 }
 .footer {
-	position: absolute;
 	width: 1440px;
 	height: 200px;
 	left: 0px;
 	top: 2227px;
+	line-height: 200px;
 	background: #E5E000;
 }
-.imgTwo {
-	position: absolute;
-	width: 205px;
-	height: 46px;
-	left: 5.56%;
-	right: 80.21%;
-	top: 100%;
-	bottom: 2%;
-	background: #FFFFFF;
+.img-footer {
+	position: relative;
+	left: 80px;
+	color: #FFFFFF;
 }
 
 
