@@ -29,6 +29,9 @@
 	background-color: #E5E000;
 	line-height: 100px;
 }
+.links-list li {
+	display: inline;
+}
 .text {
 	position: relative;
 	left: 80px;
